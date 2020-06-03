@@ -31,13 +31,14 @@ p {
     text-transform: uppercase;
 }
 
+/* where to put grid? */
 .grid {
 
 }
 
 #banner-image {
-    background-image: ;
-    grid-template: 1fr / 1fr;
+    background-image: url("assets/Layer\ 7.png");
+    grid-template: 1fr / 1fr; 
 }
 
 .big-text-box {
@@ -50,12 +51,64 @@ h2 {
 }
 
 .overlay-image {
+
+}
+
+.skinny-hori-image {
+
+}
+
+.square-text-box {
+
+}
+
+.large-hori-image {
+
+}
+
+.med-vert-image {
+
+}
+
+.small-square-image {
+    
+}
+
+.skinny-vert-image {
+
+}
+
+.small-hori-image {
+
+}
+
+#discover-button {
+
+}
+
+#stay-on-the-saddle {
+
+}
+
+#newsletter-form{
+
+}
+
+#go-button {
     
 }
 
 
-/* Text Box */
+/* Footer */
 
-.saddle-text {
+#address {
+
+}
+
+.social-media-icon {
+
+}
+
+#yebo-logo {
 
 }
