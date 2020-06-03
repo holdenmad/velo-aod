@@ -1,3 +1,15 @@
+/* Fonts */
+
+@import url('https://fonts.googleapis.com/css2?family=Lato&family=Rubik&display=swap');
+
+/* Font specifications
+
+font-family: 'Lato', sans-serif;
+font-family: 'Rubik', sans-serif;
+
+*/
+
+
 /* General */
 
 * {
@@ -11,8 +23,8 @@ body {
 }
 
 p {
-    font-family: ;
-    font-size: 12px;
+    font-family: 'Lato', sans-serif;;
+    font-size: 12px; 
 }
 
 
@@ -21,6 +33,7 @@ p {
 .logo {
 
 }
+
 nav {
     text-align: center;
 }
@@ -74,17 +87,19 @@ ul {
 }
 
 .green-icon {
-    padding: 5px;
+    padding: 20px;
     text-align: center;
 }
 
 h2 {
     text-transform: uppercase;
+    font-family: 'Rubik', sans-serif;
 }
 
-.inner-text-big {
-    width: 80%;
+.inner-text {
+    width: 70%;
     margin: 0 auto;
+    padding: 20px;
 }
 
 
@@ -97,9 +112,22 @@ h2 {
     height: auto;
 }
 
+#layer10 {
+    background-image: url("assets/Layer\ 10.png")
+}
+
+#layer11 {
+    grid-row: 3;
+    grid-column: 2/4;
+    background-image: url("assets/Layer\ 10.png");
+}
+
 .overlay-image {
-    margin: 0 auto;
-    text-align: center;
+    margin: auto;
+}
+
+#bicycle_company {
+    background-image: url("assets/Logo2.png")
 }
 
 /* Skinny hori image with square text */
@@ -139,8 +167,10 @@ h2 {
 
 }
 
-#discover-button {
 
+#discover-button {
+    width: 200px;
+    height: 100px;
 }
 
 #stay-on-the-saddle {
