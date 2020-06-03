@@ -7,13 +7,46 @@
 
 body {
     background-color: white;
+    font-family: ;
+}
+
+p {
+    font-family: ;
+    font-size: 10px;
 }
 
 
-/* Images */
+/* Header and Navigation */
+
+.logo {
+
+}
+
+.navbar {
+    
+}
+
+.nav-element {
+    display: inline-block;
+    text-transform: uppercase;
+}
+
+.grid {
+
+}
 
 #banner-image {
-    
+    background-image: ;
+    grid-template: 1fr / 1fr;
+}
+
+.big-text-box {
+    width: 100%;
+    text-align: center;
+}
+
+h2 {
+    text-transform: uppercase;
 }
 
 
