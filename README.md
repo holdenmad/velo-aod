@@ -7,9 +7,13 @@
 5. Create grid system according to the PSD file
 6. Discuss where sections repeat, and where to use the same classes
 
-how do we find out the font? 
 
-IDs
+## To Do
+
+1. Try to use grid-template-area, grid-template-rows, and grid-template-columns like Niklas to get the grids working
+2. 
+
+
 
 classes
 
