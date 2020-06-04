@@ -270,7 +270,7 @@ ul {
     width: 100%;
     text-align: center;
     padding-top: 40px;
-    padding-bottom: 40px;
+    padding-bottom: 60px;
     background-color: #f7f7f7;
 }
 
@@ -281,10 +281,14 @@ ul {
 
 
 .inner-text {
-    width: 70%;
+    width: 60%;
     margin: 0 auto;
     padding: 20px;
     
+}
+
+.justify {
+    text-align: justify;
 }
 
 
