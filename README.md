@@ -52,3 +52,7 @@ velo-aod
 
 For overlay, make div with background image
 use position: absolute with overlay image
+
+## Notes:
+- Madlen read that you use the PSD and measure it
+- 

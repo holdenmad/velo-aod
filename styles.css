@@ -1,6 +1,7 @@
 /* Fonts */
 
 @import url('https://fonts.googleapis.com/css2?family=Lato&family=Rubik&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Raleway:wght@200&display=swap%22');
 
 /* Font specifications
 
@@ -89,6 +90,10 @@ ul {
 .lhori1 {
     grid-area: lhori1; 
     max-width: 100%;
+    background-image: url("assets/Layer 10.png");
+    min-height: 200px;
+    max-height: 700px;
+    background-size: cover;
 }
 .card1 {
     grid-area: card1; 
@@ -96,6 +101,10 @@ ul {
 .spic1 {
     grid-area: spic1;
     max-width: 100%;
+    background-image: url("assets/Layer 11.png");
+    min-height: 200px;
+    max-height: 700px;
+    background-size: cover;
 }
 .card2 {
     grid-area: card2; 
@@ -104,14 +113,26 @@ ul {
 .lhori2 {
     grid-area: lhori2;
     max-width: 100%;
+    background-image: url("assets/Layer 12.png");
+    min-height: 200px;
+    max-height: 700px;
+    background-size: cover;
 }
 .spic2 {
     grid-area: spic2;
     max-width: 100%;
+    background-image: url("assets/Layer 13.png");
+    min-height: 200px;
+    max-height: 700px;
+    background-size: cover;
 }
 .mvert1 {
     grid-area: mvert1;
     max-width: 100%;
+    background-image: url("assets/Layer 15.png");
+    min-height: 200px;
+    max-height: 700px;
+    background-size: cover;
 }
 .card3 {
     grid-area: card3; 
@@ -131,14 +152,13 @@ ul {
 .grid2 {
     display: grid;
     width: 100vw;
-    
     margin-right: auto;
     margin-left: auto;
-    grid-template-columns: 1fr 1fr 1fr 1fr 2fr;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr;
     grid-template-rows: repeat(2, 1fr);
     grid-template-areas: 
-        "sbox1  sbox2 svert1 svert2 shori2"
-        "shori1 shori1 svert1 svert2 shori3";
+        "sbox1  sbox2 svert1 svert2 shori2 shori2"
+        "shori1 shori1 svert1 svert2 sbox3 sbox4";
 }
 
 /* 
@@ -148,20 +168,63 @@ ul {
 .sbox1 {
     grid-area: sbox1;
     background-image: url("assets/Layer 19.png");
-    position: relative;
+    min-height: 200px;
+    max-height: 700px;
+    background-size: cover;
 }
+
+.sbox2 {
+    grid-area: sbox2;
+    background-image: url("assets/Layer 21.png");
+    min-height: 200px;
+    max-height: 700px;
+    background-size: cover;
+}
+
 .svert1 {
     grid-area: svert1;
+    background-image: url("assets/Layer 22.png");
+    min-height: 200px;
+    max-height: 700px;
+    background-size: cover;
 }
 .svert2 {
     grid-area: svert2;
+    background-image: url("assets/Layer 25.png");
+    min-height: 200px;
+    max-height: 700px;
+    background-size: cover;
 }
 .shori2 {
     grid-area: shori2;
+    background-color: teal;
+    min-height: 200px;
+    max-height: 700px;
+    background-size: cover;
 }
 
-.shori3 {
-    grid-area: shori3;
+.shori1 {
+    grid-area: shori1;
+    background-image: url("assets/Layer 20.png");
+    min-height: 200px;
+    max-height: 700px;
+    background-size: cover;
+}
+
+.sbox3 {
+    grid-area: sbox3;
+    background-image: url("assets/Layer 24.png");
+    min-height: 200px;
+    max-height: 700px;
+    background-size: cover;
+}
+
+.sbox4 {
+    grid-area: sbox4;
+    background-image: url("assets/Layer 26.png");
+    min-height: 200px;
+    max-height: 700px;
+    background-size: cover;
 }
 
 
@@ -180,6 +243,7 @@ ul {
 #banner-image {
     background-image: url("assets/Layer 7.png");
     background-size: cover;
+    background-position: center;
     height: 70vh;
 }
 
