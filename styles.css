@@ -110,6 +110,7 @@ ul {
     grid-area: card2; 
     align-self: center;
 }
+
 .lhori2 {
     grid-area: lhori2;
     max-width: 100%;
@@ -141,14 +142,23 @@ ul {
 .spic3 {
     grid-area: spic3;
     max-width: 100%;
+    background-image: url("assets/Layer 16.png");
+    min-height: 200px;
+    max-height: 700px;
+    background-size: cover;
 }
 .mvert2 {
     grid-area: mvert2;
     max-width: 100%;
+    background-image: url("assets/Layer 14.png");
+    min-height: 200px;
+    max-height: 700px;
+    background-size: cover;
 }
 
 
 /*Grid2*/
+
 .grid2 {
     display: grid;
     width: 100vw;
@@ -161,7 +171,7 @@ ul {
         "shori1 shori1 svert1 svert2 sbox3 sbox4";
 }
 
-/* 
+
 
 /*Grid 2 Classes*/
 
@@ -228,17 +238,6 @@ ul {
 }
 
 
-    /*
-
-            "tbox2 tbox2 tbox2 tbox2 tbox2 tbox2"
-            "tbox2 tbox2 tbox2 tbox2 tbox2 tbox2"
-            "sbox    sbox2 svert1 svert2 shori2"
-            "shori1 shori1 svert1 svert2 shori2";
-              "tbox2 tbox2 tbox2 tbox2 tbox2 tbox2"
-            "tbox2 tbox2 tbox2 tbox2 tbox2 tbox2"
-            "sbox1  sbox2 svert1 svert2 shori2"
-            "shori1 shori1 svert1 svert2 shori2";
-}*/
 
 #banner-image {
     background-image: url("assets/Layer 7.png");
@@ -246,6 +245,7 @@ ul {
     background-position: center;
     height: 70vh;
 }
+
 
 /* Block of text */
 
@@ -302,39 +302,31 @@ h2 {
     text-align: center;
 }
 
-.skinny-hori-image {
-    background-image: url("assets/Layer 11.png");
-    background-size: cover;
-}
-
 .square-text-box {
     text-align: center;
 }
 
 
-
-.med-vert-image {
-   
+.discover-section {
+    background-color: black;
+    width: 100%;
+    height: 15vh;
+    position: relative;
 }
-
-#
-
-.small-square-image {
-    
-}
-
-.skinny-vert-image {
-
-}
-
-.small-hori-image {
-
-}
-
 
 #discover-button {
-    width: 200px;
-    height: 100px;
+    width: 300px;
+    height: 50px;
+    background-color: black;
+    border-style: solid;
+    border-color: white;
+    border-width: 1px;
+    color: white;
+    position: absolute;
+    top: 40%;
+    left: 38%;
+    font-size: 16px;
+    text-transform: uppercase;
 }
 
 #stay-on-the-saddle {
