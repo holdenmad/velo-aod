@@ -1,3 +1,13 @@
+## Questions
+
+1. What is a good way to center objects like buttons?
+2. Have I chosen a good way to make background-images responsive? Is there a better or easier way? 
+3. Do I have to make a 'hard' height or width or images in a responsive design, or is there a type of sizing that works well for resopnsive images?
+
+Things to look at:
+- Media queries 
+- 
+
 ## Objectives 
 
 1. Choose design to realize
@@ -55,4 +65,6 @@ use position: absolute with overlay image
 
 ## Notes:
 - Madlen read that you use the PSD and measure it
-- 
+- Site doesn't need width and height (fixed). You can use percentages.
+- Use media queries for certain screen sizes
+- To make the height smaller, then the pictuer can adjust more (to make sure it doesn't cut it off)

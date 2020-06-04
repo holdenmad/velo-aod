@@ -2,12 +2,14 @@
 
 @import url('https://fonts.googleapis.com/css2?family=Lato&family=Rubik&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Raleway:wght@200&display=swap%22');
+@import url('https://fonts.googleapis.com/css2?family=Pacifico&display=swap');
 
 /* Font specifications
 
 font-family: 'Lato', sans-serif;
 font-family: 'Rubik', sans-serif;
-
+font-family: 'Raleway', sans-serif;
+font-family: 'Pacifico', cursive;
 */
 
 
@@ -20,12 +22,27 @@ font-family: 'Rubik', sans-serif;
 
 body {
     background-color: white;
-    font-family: ;
+    font-family: 'Raleway', sans-serif;
 }
 
 p {
-    font-family: 'Lato', sans-serif;;
+    font-family: 'Raleway', sans-serif;
     font-size: 12px; 
+    color: grey;
+    line-height: 2em;
+}
+
+h2 {
+    text-transform: uppercase;
+    font-family: 'Rubik', sans-serif;
+    font-size: 18px;
+    padding-bottom: 10px;
+}
+
+hr {
+    width: 20%;
+    margin-left: auto;
+    margin-right: auto;
 }
 
 
@@ -69,7 +86,7 @@ ul {
 /*Grid*/
 .grid {
     display: grid;
-    width: 100vw;
+    width: 100%;
     margin-right: auto;
     margin-left: auto;
     grid-template-columns: 2fr 1fr 1fr 2fr;
@@ -97,7 +114,8 @@ ul {
 }
 .card1 {
     grid-area: card1; 
-    align-self: center;}
+    align-self: center;
+}
 .spic1 {
     grid-area: spic1;
     max-width: 100%;
@@ -110,7 +128,6 @@ ul {
     grid-area: card2; 
     align-self: center;
 }
-
 .lhori2 {
     grid-area: lhori2;
     max-width: 100%;
@@ -161,7 +178,7 @@ ul {
 
 .grid2 {
     display: grid;
-    width: 100vw;
+    width: 100%;
     margin-right: auto;
     margin-left: auto;
     grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr;
@@ -190,7 +207,6 @@ ul {
     max-height: 700px;
     background-size: cover;
 }
-
 .svert1 {
     grid-area: svert1;
     background-image: url("assets/Layer 22.png");
@@ -207,10 +223,11 @@ ul {
 }
 .shori2 {
     grid-area: shori2;
-    background-color: teal;
+    background-color: #64c29e;
     min-height: 200px;
     max-height: 700px;
     background-size: cover;
+    
 }
 
 .shori1 {
@@ -238,7 +255,6 @@ ul {
 }
 
 
-
 #banner-image {
     background-image: url("assets/Layer 7.png");
     background-size: cover;
@@ -254,6 +270,7 @@ ul {
     text-align: center;
     padding-top: 40px;
     padding-bottom: 40px;
+    background-color: #f7f7f7;
 }
 
 .green-icon {
@@ -261,10 +278,6 @@ ul {
     text-align: center;
 }
 
-h2 {
-    text-transform: uppercase;
-    font-family: 'Rubik', sans-serif;
-}
 
 .inner-text {
     width: 70%;
@@ -290,7 +303,17 @@ h2 {
 }
 
 .overlay-image {
-    margin: auto;
+    display: block;
+    margin: 0px auto;
+    margin-top: 75px;
+    
+}
+
+#shopnow {
+    color: white;
+    font-family: 'Rubik', sans-serif;
+    padding: 5px;
+    text-align: center;
 }
 
 .bicycle-company {
@@ -310,8 +333,10 @@ h2 {
 .discover-section {
     background-color: black;
     width: 100%;
-    height: 15vh;
-    position: relative;
+    height: 10vh;
+    text-align: center;
+    padding-top: 30px;
+    padding-bottom: 30px;
 }
 
 #discover-button {
@@ -322,37 +347,109 @@ h2 {
     border-color: white;
     border-width: 1px;
     color: white;
-    position: absolute;
-    top: 40%;
-    left: 38%;
     font-size: 16px;
     text-transform: uppercase;
+    margin-top: 3.5%;
+    margin-left: auto;
+    margin-right: auto;
+
+    /*use margins to space the button, put all contents of the black section div in the center*/
+    /*use auto margin for left and right to center*/
 }
 
-#stay-on-the-saddle {
+h3 {
+    font-family: 'Rubik', sans-serif;
+    font-size: 16px;
+    font-style: bold; 
+    
+}
 
+.min35 {
+    font-family: 'Raleway', sans-serif;
+    font-size: 12px;
+    font-color: grey;
+}
+
+.italic {
+    font-style: italic;
+}
+
+#newsletter-section {
+    width: 100%;
+    text-align: center;
+    padding-top: 20px;
+    padding-bottom: 40px;
+}
+
+.small-logo {
+    width: 75px;
+    height: auto;
+    margin-top: 3%;
+    padding: 10px;
 }
 
 #newsletter-form{
+    margin: 10px;
+}
 
+#textbox {
+    height: 40px;
+    border-style: none;
+    border-width: 0;
+    vertical-align: middle;
+    font-style: italic;
+    font-color: grey;
 }
 
 #go-button {
-
+    margin: 10px;
+    height: 40px;
+    width: 70px;
+    color: white;
+    background-color: #64c29e;
+    border-width: 0;
+    vertical-align: middle;
 }
 
 
 /* Footer */
 
-#address {
+footer {
+    width: 100%;
+    background-color: #f7f7f7;
+    font-family: 'Raleway', sans-serif;
+    font-size: 8px;
+    color: black;
+    height: 150px;
+}
 
+#address {
+    text-align: left; 
+    float: left;
+    margin-left: 10%;
+    margin-top: 50px;
+}
+
+#social-media-section {
+    margin-top: 50px;
+    display: inline-block;
+    
 }
 
 .social-media-icon {
-    padding: 10px;
-    text-align: center;
+    padding: 5px;
+    height: 20px;
 }
 
 #yebo-logo {
-
+    font-family: 'Pacifico', cursive;
+    font-size: 15px;
 }
+
+#yebo-section {
+    margin-right: 10%;
+    margin-top: 50px;
+    float: right; 
+}
+
+/* Media Queries */
