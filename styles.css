@@ -65,52 +65,115 @@ ul {
 
 
 
-
-.container1 {
+/*Grid*/
+.grid {
     display: grid;
-    width: 1600px;
-    margin: 0 auto;
+    width: 100vw;
+    margin-right: auto;
+    margin-left: auto;
     grid-template-columns: 2fr 1fr 1fr 2fr;
-    grid-template-rows: repeat(10, 1fr);
+    grid-template-rows: repeat(9, 1fr);
     grid-template-areas: 
-            "lhori1 lhori1 lhori1 lhori1 card1 card1"
-            "lhori1 lhori1 lhori1 lhori1 card1 card1"
-            "card2 card2 lhori lhori2 lhori2 lhori2"
-            "card2 card2 lhori lhori2 lhori2 lhori2"
-            "mvert1 mvert1 card3 card3 mvert2 mvert2"
-            "mvert1 mvert1 card3 card3 mvert2 mvert2"
-            "tbox2 tbox2 tbox2 tbox2 tbox2 tbox2"
-            "tbox2 tbox2 tbox2 tbox2 tbox2 tbox2"
-            "sbox1  sbox2 svert1 svert2 shori2"
-            "shori1 shori1 svert1 svert2 shori2"
+            "lhori1 lhori1 lhori1 card1"
+            "lhori1 lhori1 lhori1 card1"
+            "lhori1 lhori1 lhori1 spic1"
+            "card2 lhori2 lhori2 lhori2"
+            "card2 lhori2 lhori2  lhori2"
+            "spic2 lhori2  lhori2 lhori2"
+            "mvert1 card3 card3 mvert2"
+            "mvert1 card3 card3 mvert2"
+            "mvert1 spic3 spic3 mvert2";
 }
 
-.lhori1 {grid-area: lhori1;}
-.card1 {grid-area: card1;}
-.card2 {grid-area: card2;}
-.mvert1 {grid-area: mvert1;}
-.card3 {grid-area: card3;}
-.mvert2 {grid-area: mvert2;}
-.tbox2 {grid-area: tbox2;}
-.sbox1 {grid-area: sbox1;}
-.svert1 {grid-area: svert1;}
-.svert2 {grid-area: svert2;}
-.shori2 {grid-area: shori2;}
+/*Grid Classes*/
+.lhori1 {
+    grid-area: lhori1; 
+    max-width: 100%;
+}
+.card1 {
+    grid-area: card1; 
+    align-self: center;}
+.spic1 {
+    grid-area: spic1;
+    max-width: 100%;
+}
+.card2 {
+    grid-area: card2; 
+    align-self: center;
+}
+.lhori2 {
+    grid-area: lhori2;
+    max-width: 100%;
+}
+.spic2 {
+    grid-area: spic2;
+    max-width: 100%;
+}
+.mvert1 {
+    grid-area: mvert1;
+    max-width: 100%;
+}
+.card3 {
+    grid-area: card3; 
+    align-self: center;
+}
+.spic3 {
+    grid-area: spic3;
+    max-width: 100%;
+}
+.mvert2 {
+    grid-area: mvert2;
+    max-width: 100%;
+}
+
+
+/*Grid2*/
+.grid2 {
+    display: grid;
+    width: 100vw;
+    
+    margin-right: auto;
+    margin-left: auto;
+    grid-template-columns: 1fr 1fr 1fr 1fr 2fr;
+    grid-template-rows: repeat(2, 1fr);
+    grid-template-areas: 
+        "sbox1  sbox2 svert1 svert2 shori2"
+        "shori1 shori1 svert1 svert2 shori3";
+}
+
+/* 
+
+/*Grid 2 Classes*/
+
+.sbox1 {
+    grid-area: sbox1;
+    background-image: url("assets/Layer 19.png");
+    position: relative;
+}
+.svert1 {
+    grid-area: svert1;
+}
+.svert2 {
+    grid-area: svert2;
+}
+.shori2 {
+    grid-area: shori2;
+}
+
+.shori3 {
+    grid-area: shori3;
+}
 
 
     /*
-    grid-template-columns: 1fr 1fr 1fr;
-    grid-auto-rows: auto;
-    grid-template-areas: 
-            "lhori1 lhori1 lhori1 lhori1 card1 card1"
-            "lhori1 lhori1 lhori1 lhori1 card1 card1"
-            "card2 card2 lhori lhori2 lhori2 lhori2"
-            "card2 card2 lhori lhori2 lhori2 lhori2"
-            "mvert1 mvert1 card3 card3 mvert2 mvert2"
-            "mvert1 mvert1 card3 card3 mvert2 mvert2"
+
             "tbox2 tbox2 tbox2 tbox2 tbox2 tbox2"
             "tbox2 tbox2 tbox2 tbox2 tbox2 tbox2"
             "sbox    sbox2 svert1 svert2 shori2"
+            "shori1 shori1 svert1 svert2 shori2";
+              "tbox2 tbox2 tbox2 tbox2 tbox2 tbox2"
+            "tbox2 tbox2 tbox2 tbox2 tbox2 tbox2"
+            "sbox1  sbox2 svert1 svert2 shori2"
             "shori1 shori1 svert1 svert2 shori2";
 }*/
 
@@ -140,59 +203,54 @@ h2 {
 }
 
 .inner-text {
-    width: 60%;
+    width: 70%;
     margin: 0 auto;
     padding: 20px;
+    
 }
 
 
 /* Large image */
 .large-hori-image {
-    height: 10rem;
+
 }
 
-#layer10 {
+.layer10 {
     background-size: cover;
-    background-image: url("assets/Layer\ 10.png");
+    background-image: url("assets/Layer 10.png");
 
 }
 
-#layer11 {
-    background-image: url("assets/Layer\ 10.png");
+.layer11 {
+    background-image: url("assets/Layer 10.png");
 }
 
 .overlay-image {
     margin: auto;
 }
 
-#bicycle-company {
+.bicycle-company {
     background-image: url("assets/Logo2.png");
 }
 
 /* Skinny hori image with square text */
 .card {
     text-align: center;
-    grid-area: card;
 }
 
 .skinny-hori-image {
     background-image: url("assets/Layer 11.png");
-    grid-row: 3;
-    grid-column: 3;
-    height: 10rem;
     background-size: cover;
 }
 
 .square-text-box {
-    padding: 20px;
     text-align: center;
-    grid-column: 1fr;
 }
 
 
 
 .med-vert-image {
-    grid-area: mvert;
+   
 }
 
 #

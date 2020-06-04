@@ -48,3 +48,7 @@ If we have time let's make the three dots scroll
 To order CSS:
 
 velo-aod
+
+
+For overlay, make div with background image
+use position: absolute with overlay image
