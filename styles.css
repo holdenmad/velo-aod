@@ -63,37 +63,56 @@ ul {
 }
 
 
-/* where to put grid? */
+
+
+
 .container1 {
-    width: 100%;
-    height: 90vh;
     display: grid;
-    grid-template-columns: repeat(3, 1fr)
-    grid-auto-rows: minmax(200px, auto);
+    width: 1600px;
+    margin: 0 auto;
+    grid-template-columns: 2fr 1fr 1fr 2fr;
+    grid-template-rows: repeat(10, 1fr);
     grid-template-areas: 
-            "lhori lhori card"
-            "card lhori lhori"
-            "mvert card mvert";
-   
-   
-   
-   
-   
-    /* 
-    "lhori lhori card"
-    "card lhori lhori"
-    "mvert card mvert"
-
-    twitter
-
-    "sbox sbox svert svert shori"
-    "shori shori svert svert shori"
-
-    black background with button
-    
-    */
-
+            "lhori1 lhori1 lhori1 lhori1 card1 card1"
+            "lhori1 lhori1 lhori1 lhori1 card1 card1"
+            "card2 card2 lhori lhori2 lhori2 lhori2"
+            "card2 card2 lhori lhori2 lhori2 lhori2"
+            "mvert1 mvert1 card3 card3 mvert2 mvert2"
+            "mvert1 mvert1 card3 card3 mvert2 mvert2"
+            "tbox2 tbox2 tbox2 tbox2 tbox2 tbox2"
+            "tbox2 tbox2 tbox2 tbox2 tbox2 tbox2"
+            "sbox1  sbox2 svert1 svert2 shori2"
+            "shori1 shori1 svert1 svert2 shori2"
 }
+
+.lhori1 {grid-area: lhori1;}
+.card1 {grid-area: card1;}
+.card2 {grid-area: card2;}
+.mvert1 {grid-area: mvert1;}
+.card3 {grid-area: card3;}
+.mvert2 {grid-area: mvert2;}
+.tbox2 {grid-area: tbox2;}
+.sbox1 {grid-area: sbox1;}
+.svert1 {grid-area: svert1;}
+.svert2 {grid-area: svert2;}
+.shori2 {grid-area: shori2;}
+
+
+    /*
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-auto-rows: auto;
+    grid-template-areas: 
+            "lhori1 lhori1 lhori1 lhori1 card1 card1"
+            "lhori1 lhori1 lhori1 lhori1 card1 card1"
+            "card2 card2 lhori lhori2 lhori2 lhori2"
+            "card2 card2 lhori lhori2 lhori2 lhori2"
+            "mvert1 mvert1 card3 card3 mvert2 mvert2"
+            "mvert1 mvert1 card3 card3 mvert2 mvert2"
+            "tbox2 tbox2 tbox2 tbox2 tbox2 tbox2"
+            "tbox2 tbox2 tbox2 tbox2 tbox2 tbox2"
+            "sbox    sbox2 svert1 svert2 shori2"
+            "shori1 shori1 svert1 svert2 shori2";
+}*/
 
 #banner-image {
     background-image: url("assets/Layer 7.png");
@@ -106,7 +125,6 @@ ul {
 .big-text-box {
     width: 100%;
     text-align: center;
-    grid-column: 1/4;
     padding-top: 40px;
     padding-bottom: 40px;
 }
@@ -130,20 +148,16 @@ h2 {
 
 /* Large image */
 .large-hori-image {
-    grid-row: 2;
-    grid-column: 1/3;
-    background-image: url("assets/Layer\ 10.png");
-    background-size: cover;
-    height: auto;
+    height: 10rem;
 }
 
 #layer10 {
-    background-image: url("assets/Layer\ 10.png")
+    background-size: cover;
+    background-image: url("assets/Layer\ 10.png");
+
 }
 
 #layer11 {
-    grid-row: 3;
-    grid-column: 2/4;
     background-image: url("assets/Layer\ 10.png");
 }
 
@@ -151,13 +165,14 @@ h2 {
     margin: auto;
 }
 
-#bicycle_company {
-    background-image: url("assets/Logo2.png")
+#bicycle-company {
+    background-image: url("assets/Logo2.png");
 }
 
 /* Skinny hori image with square text */
 .card {
     text-align: center;
+    grid-area: card;
 }
 
 .skinny-hori-image {
@@ -177,8 +192,10 @@ h2 {
 
 
 .med-vert-image {
-
+    grid-area: mvert;
 }
+
+#
 
 .small-square-image {
     
