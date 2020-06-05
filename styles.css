@@ -271,7 +271,7 @@ ul {
     background-image: url("assets/Layer 7.png");
     background-size: cover;
     background-position: center;
-    height: 70vh;
+    height: 80vh;
 }
 
 
@@ -371,7 +371,7 @@ ul {
     color: white;
     font-size: 16px;
     text-transform: uppercase;
-    margin-top: 3.5%;
+    margin-top: 10px;
     margin-left: auto;
     margin-right: auto;
 
@@ -476,4 +476,115 @@ footer {
     float: right; 
 }
 
+
 /* Media Queries */
+
+@media only screen and (max-width: 610px) {
+    nav ul li {
+        padding-left: 0.5em;
+        padding-right: 0.5em;
+        vertical-align: middle;
+        font-size: 13px;
+    }
+    .grid {
+        display: grid;
+        width: 100%;
+        margin-right: auto;
+        margin-left: auto;
+        grid-template-columns: 1fr 1fr;
+        grid-template-rows: 1fr 1fr 10% 1fr 1fr 200px 1fr 1fr 1fr 200px);
+        grid-template-areas: 
+                "lhori1 lhori1"
+                "card1 card1"
+                "spic1 spic1"
+                "lhori2 lhori2"
+                "card2 card2"
+                "spic2 spic2"
+                "mvert1 mvert2"
+                "mvert1 mvert2"
+                "card3 card3"
+                "spic3 spic3";
+    }
+
+/*Grid Classes*/
+
+.lhori1 {
+    grid-area: lhori1; 
+    max-width: 100%;
+    background-image: url("assets/Layer 10.png");
+    min-height: 200px;
+    max-height: 700px;
+    background-size: cover;
+}
+.card1 {
+    grid-area: card1; 
+    align-self: center;
+}
+.spic1 {
+    grid-area: spic1;
+    max-width: 100%;
+    background-image: url("assets/Layer 11.png");
+    max-height: 200px;
+    background-size: cover;
+}
+.card2 {
+    grid-area: card2; 
+    align-self: center;
+}
+.lhori2 {
+    grid-area: lhori2;
+    max-width: 100%;
+    background-image: url("assets/Layer 12.png");
+    min-height: 200px;
+    max-height: 700px;
+    background-size: cover;
+}
+.spic2 {
+    grid-area: spic2;
+    max-width: 100%;
+    background-image: url("assets/Layer 13.png");
+    max-height: 200px;
+    background-size: cover;
+}
+.mvert1 {
+    grid-area: mvert1;
+    max-width: 100%;
+    background-image: url("assets/Layer 15.png");
+    min-height: 200px;
+    max-height: 700px;
+    background-size: cover;
+}
+.card3 {
+    grid-area: card3; 
+    align-self: center;
+}
+.spic3 {
+    grid-area: spic3;
+    max-width: 100%;
+    background-image: url("assets/Layer 16.png");
+    max-height: 200px;
+    background-size: cover;
+}
+.mvert2 {
+    grid-area: mvert2;
+    max-width: 100%;
+    background-image: url("assets/Layer 14.png");
+    min-height: 200px;
+    max-height: 700px;
+    background-size: cover;
+}
+
+
+    .grid2 {
+        display: grid;
+        width: 100%;
+        margin-right: auto;
+        margin-left: auto;
+        grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr;
+        grid-template-rows: repeat(2, 1fr);
+        grid-template-areas: 
+            "sbox1  sbox2 svert1 svert2 shori2 shori2"
+            "shori1 shori1 svert1 svert2 sbox3 sbox4";
+    }
+    
+}
