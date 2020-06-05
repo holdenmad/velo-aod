@@ -8,6 +8,8 @@
 4. Create classes and ids for 
 5. Create grid system according to the PSD file
 6. Discuss where sections repeat, and where to use the same classes
+7. Replicate design as accurately as possible
+8. Make responsive if possible
 
 
 ## What I Learned
