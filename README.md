@@ -1,12 +1,4 @@
-## Questions
-
-1. What is a good way to center objects like buttons?
-2. Have I chosen a good way to make background-images responsive? Is there a better or easier way? 
-3. Do I have to make a 'hard' height or width or images in a responsive design, or is there a type of sizing that works well for resopnsive images?
-
-Things to look at:
-- Media queries 
-- 
+# Velo AOD PSD Project - WBS Week 1
 
 ## Objectives 
 
@@ -18,52 +10,29 @@ Things to look at:
 6. Discuss where sections repeat, and where to use the same classes
 
 
+## What I Learned
+
+- Make a structure 
+- How to make grids with grid-template-areas
+- Making background-images on divs while setting the size of them so that they can be responsive
+- Using max-width and max-height to make things responsive
+- Centering things with margins and position: absolute
+
+
+## Things to look at (not for now)
+
+- Media queries 
+
+
 ## To Do
 
-1. Try to use grid-template-area, grid-template-rows, and grid-template-columns like Niklas to get the grids working
-2. 
+1. Fix social media icons, put them in middle
+2. If we have time let's make the three dots scroll
+3. Fix the 'discover the shop' button
 
-
-
-classes
-
-3 small text boxes
-2 bigger text boxes (possibly with image)
-3 small horizontal iamges (saddles)
-2 red bike images
-4 square images
-2 horizontal thicker (shop now and brooks)
-2 skinny vertical images
-small green icons
-
-6 different sizes of images
-
-white image for overlay
-
-button "discover the shop" 
-
-logo AODX
-text with caption stay on the saddle
-form email 
-go button
-
-footer 
-social media icon class
-id/class for address?
-icon with yebo id
-
-If we have time let's make the three dots scroll
-
-
-To order CSS:
-
-velo-aod
-
-
-For overlay, make div with background image
-use position: absolute with overlay image
 
 ## Notes:
+
 - Madlen read that you use the PSD and measure it
 - Site doesn't need width and height (fixed). You can use percentages.
 - Use media queries for certain screen sizes

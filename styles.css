@@ -115,6 +115,7 @@ ul {
 }
 
 /*Grid Classes*/
+
 .lhori1 {
     grid-area: lhori1; 
     max-width: 100%;
