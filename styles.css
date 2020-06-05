@@ -415,12 +415,13 @@ h3 {
 }
 
 #textbox {
-    height: 40px;
+    height: 35px;
     border-style: none;
     border-width: 0;
     vertical-align: middle;
     font-style: italic;
-    font-color: grey;
+    color: grey;
+    padding: 5px;
 }
 
 #go-button {
@@ -455,7 +456,8 @@ footer {
 #social-media-section {
     margin-top: 50px;
     display: inline-block;
-    
+    position: absolute;
+    left: 46%;
 }
 
 .social-media-icon {
