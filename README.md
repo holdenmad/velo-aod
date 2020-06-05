@@ -19,21 +19,8 @@
 - Centering things with margins and position: absolute
 
 
-## Things to look at (not for now)
+## Things I could have done but am leaving
 
-- Media queries 
-
-
-## To Do
-
-1. Fix social media icons, put them in middle
-2. If we have time let's make the three dots scroll
-3. Fix the 'discover the shop' button
-
-
-## Notes:
-
-- Madlen read that you use the PSD and measure it
-- Site doesn't need width and height (fixed). You can use percentages.
-- Use media queries for certain screen sizes
-- To make the height smaller, then the pictuer can adjust more (to make sure it doesn't cut it off)
+- Media queries
+- Fix the 'discover the shop' button
+- Three dots for scrolling twitter feed
