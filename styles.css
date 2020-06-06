@@ -45,6 +45,10 @@ hr {
     margin-right: auto;
 }
 
+a {
+    text-decoration: none;
+}
+
 
 /* Header and Navigation */
 
@@ -78,11 +82,6 @@ nav ul li {
 }
 
 .nav-element a {
-    text-decoration: none;
-    color: black;
-}
-
-.nav-element a:hover {
     text-decoration: none;
     color: black;
 }
@@ -374,6 +373,7 @@ ul {
     margin-top: 10px;
     margin-left: auto;
     margin-right: auto;
+    cursor: pointer;
 
     /*use margins to space the button, put all contents of the black section div in the center*/
     /*use auto margin for left and right to center*/
@@ -432,6 +432,7 @@ h3 {
     background-color: #64c29e;
     border-width: 0;
     vertical-align: middle;
+    cursor: pointer;
 }
 
 
